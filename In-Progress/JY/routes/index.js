@@ -24,7 +24,7 @@ router.get("/fetch", async (req, res) => {
     .then(res => res.json)
     .catch(e => {
       console.error({
-        "message": "oh noes",
+        "message": "oh noes!",
         error: e,
       })
     })
